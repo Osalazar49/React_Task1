@@ -1,0 +1,98 @@
+
+.App {  
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+
+  
+}
+
+
+.fa-solid {
+
+  font-size: 30px;
+  text-align: start;
+ 
+  left: 23rem;
+  top: 12rem;
+
+  
+
+}
+
+.quote__card {
+
+
+  background-color: white;
+  
+  box-shadow: 1px 1px 20px solid black;
+  width: 50%;
+  height: 40%;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: space-between;
+
+  gap: 1px;
+  
+}
+
+
+
+.title__card{
+
+
+  text-align: center;
+  gap: 2px;
+  height: 30%;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  
+
+}
+
+.author__card {
+  display: block;
+
+  text-align: end;
+
+
+}
+
+.quote__card div {
+display: flex;
+justify-content: flex-end;
+align-items:space-between;
+
+
+}
+
+
+button{
+ 
+width: 2rem;
+aspect-ratio: 1;
+  
+ border-radius: 100%;
+ cursor:pointer;
+ transition: box-shadow 100ms ease;
+ 
+
+
+ 
+ 
+}
+
+
+
+button:hover{
+  transition: box-shadow 150ms ease;
+
+}
