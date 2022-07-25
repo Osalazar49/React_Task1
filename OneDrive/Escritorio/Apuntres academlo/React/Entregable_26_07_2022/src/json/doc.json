@@ -2,14 +2,12 @@
     {
       "quote": "Life isn’t about getting and having, it’s about giving and being.",
       "author": "Kevin Kruse",
-      "homepage": "http://osalazar49.github.io//React_Task1/tree/main/OneDrive/Escritorio/Apuntres%20academlo/React/Entregable_26_07_2022"
+     
     },
-    {   "script": {
-    "predeploy": "npm run build",
-       "deploy":"gh-pages   -d build"
+    {  
       "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
       "author": "Napoleon Hill"
-    }},
+    },
     {
       "quote": "Strive not to be a success, but rather to be of value.",
       "author": "Albert Einstein"

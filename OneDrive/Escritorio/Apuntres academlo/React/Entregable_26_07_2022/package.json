@@ -1,9 +1,12 @@
 {
   "name": "entregable-26-07-2022",
+  "homepage": "http://osalazar49.github.io//React_Task1/tree/main/OneDrive/Escritorio/Apuntres%20academlo/React/Entregable_26_07_2022",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
